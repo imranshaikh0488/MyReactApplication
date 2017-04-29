@@ -49,10 +49,10 @@ class PreviousMatches extends Component {
 <div>
   <table >
   <tr className="header">
-    <th >Team A</th>
-     <th >Team B</th>
-    <th >Venue</th> 
-    <th >Details</th>
+    <th className="fontcolorwhite">Team A</th>
+     <th className="fontcolorwhite">Team B</th>
+    <th className="fontcolorwhite">Venue</th> 
+    <th className="fontcolorwhite">Details</th>
   </tr>
     <tr >
     <th className="wonstyle"> <img src="kkr.png" height="35" width="50" /> KKR</th>
@@ -90,10 +90,10 @@ class UpcomingMatches extends Component {
 <div>
   <table >
   <tr className="header">
-    <th >Team A</th>
-     <th >Team B</th>
-    <th >Venue</th> 
-    <th >Date</th>
+    <th className="fontcolorwhite">Team A</th>
+     <th className="fontcolorwhite">Team B</th>
+    <th className="fontcolorwhite">Venue</th> 
+    <th className="fontcolorwhite">Date</th>
   </tr>
     <tr >
          <th ><img src="rps.png" height="35" width="50" /> RPS</th>

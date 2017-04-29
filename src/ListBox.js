@@ -64,12 +64,12 @@ class KKRData extends Component {
         </div>
         <table >
           <tr className="header">
-            <th >Name</th>
-            <th >Matches Played</th>
-            <th >Total Runs</th>
-            <th >Age</th>
-            <th >Speciality</th>
-            <th>Best Score</th>
+            <th className="fontcolorwhite">Name</th>
+            <th className="fontcolorwhite">Matches Played</th>
+            <th className="fontcolorwhite">Total Runs</th>
+            <th className="fontcolorwhite">Age</th>
+            <th className="fontcolorwhite">Speciality</th>
+            <th className="fontcolorwhite">Best Score</th>
           </tr>
           <tr className="captain">
             <th > Gautam Gambhir (Captain)</th>
@@ -169,11 +169,114 @@ class RCBData extends Component {
     // const TeamData = this.state.showTableRow=='RCB'  ? <p>imran</p> : null;
     return (
       <div>
-        <p> <b>Name : Virat Kohli (Captain)</b>   Total Runs:  300</p>
-        <p> <b>Name : Gayle </b>   Total Runs:  350</p>
-        <p> <b>Name : A B Devellers </b>   Total Runs:  310</p>
-        <p> <b>Name : Shane Watson </b>   Total Runs:  150</p>
-        <p> <b>Name : Chahal</b>   Total Runs:  80</p>
+        <div className="rowTeamData">
+          <h2>Royal Challengers</h2>
+          <div className="rowTeamData"  >
+            <div  className="DataAlignmet1">
+            <h4>Owner: Vijay Mallaya</h4>
+            <h4>Home City: Banglore</h4>
+          </div>
+          <img src="rcb.png" className="DataAlignmet" height="60" width="80" />
+        </div>
+        </div>
+        <table >
+          <tr className="header">
+            <th className="fontcolorwhite">Name</th>
+            <th className="fontcolorwhite">Matches Played</th>
+            <th className="fontcolorwhite">Total Runs</th>
+            <th className="fontcolorwhite">Age</th>
+            <th className="fontcolorwhite">Speciality</th>
+            <th className="fontcolorwhite">Best Score</th>
+          </tr>
+          <tr className="captain">
+            <th > Virat Kholi (Captain)</th>
+            <th >38</th>
+            <th >2150</th>
+            <th >29</th>
+            <th >Batsman</th>
+            <th >132*</th>
+          </tr>
+          <tr>
+            <td> Chris gayle</td>
+            <th >31</th>
+            <td>1048</td>
+            <td>32</td>
+            <td>Batsman</td>
+            <td>112*</td>
+          </tr>
+          <tr>
+            <td> A.B Devellers</td>
+            <th >25</th>
+            <td>1450</td>
+            <td>36</td>
+            <td>Batsman</td>
+            <td>103*</td>
+          </tr>
+          <tr>
+            <td> Kedar Jhadav</td>
+            <th >22</th>
+            <td>550</td>
+            <td>13</td>
+            <td>Batsman</td>
+            <td>67</td>
+          </tr>
+          <tr>
+            <td> Baby</td>
+            <th >9</th>
+            <td>280</td>
+            <td>28</td>
+            <td>Batsman/ Bowler</td>
+            <td>54*</td>
+          </tr>
+          <tr>
+            <td> Sarfaraz Khan</td>
+            <th >11</th>
+            <td>233</td>
+            <td>27</td>
+            <td>Batsman</td>
+            <td>43</td>
+          </tr>
+          <tr>
+            <td> Shane Watson</td>
+            <th >33</th>
+            <td>978</td>
+            <td>25</td>
+            <td>Batsman/ Bowler</td>
+            <td>87*</td>
+          </tr>
+          <tr>
+            <td> Chahal</td>
+            <th >27</th>
+            <td>134</td>
+            <td>27</td>
+            <td>Bowler</td>
+            <td>34</td>
+          </tr>
+          <tr>
+            <td>Stuart Binny</td>
+            <th >26</th>
+            <td>201</td>
+            <td>29</td>
+            <td>Bowler</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td> K Yadav</td>
+            <th >13</th>
+            <td>148</td>
+            <td>24</td>
+            <td>Bowler</td>
+            <td>33*</td>
+          </tr>
+          <tr>
+            <td>Varun Aron</td>
+            <th >11</th>
+            <td>89</td>
+            <td>24</td>
+            <td>Bowler</td>
+            <td>34</td>
+          </tr>
+        </table>
       </div>
     );
   }
@@ -182,12 +285,115 @@ class RPSData extends Component {
   render() {
     // const TeamData = this.state.showTableRow=='RCB'  ? <p>imran</p> : null;
     return (
-      <div>
-        <p> <b>Name : M S Dhoni (Captain)</b>   Total Runs:  300</p>
-        <p> <b>Name : Steve Smith </b>   Total Runs:  350</p>
-        <p> <b>Name : Imran Tahir </b>   Total Runs:  310</p>
-        <p> <b>Name : A Rahane </b>   Total Runs:  150</p>
-        <p> <b>Name : A Thakur</b>   Total Runs:  80</p>
+     <div>
+        <div className="rowTeamData">
+          <h2>Rising Pune Superstars</h2>
+          <div className="rowTeamData"  >
+            <div  className="DataAlignmet1">
+            <h4>Owner: Sahara</h4>
+            <h4>Home City: Pune</h4>
+          </div>
+          <img src="rps.png" className="DataAlignmet" height="60" width="80" />
+        </div>
+        </div>
+        <table >
+          <tr className="header">
+            <th className="fontcolorwhite">Name</th>
+            <th className="fontcolorwhite">Matches Played</th>
+            <th className="fontcolorwhite">Total Runs</th>
+            <th className="fontcolorwhite">Age</th>
+            <th className="fontcolorwhite">Speciality</th>
+            <th className="fontcolorwhite">Best Score</th>
+          </tr>
+          <tr className="captain">
+            <th > M. S Dhoni (Captain)</th>
+            <th >45</th>
+            <th >2050</th>
+            <th >34</th>
+            <th >Batsman</th>
+            <th >198*</th>
+          </tr>
+          <tr>
+            <td> Naman Ojha</td>
+            <th >30</th>
+            <td>1045</td>
+            <td>32</td>
+            <td>Batsman</td>
+            <td>100*</td>
+          </tr>
+          <tr>
+            <td>Steve Smith</td>
+            <th >25</th>
+            <td>1350</td>
+            <td>34</td>
+            <td>Batsman</td>
+            <td>102*</td>
+          </tr>
+          <tr>
+            <td>R Pant</td>
+            <th >38</th>
+            <td>1350</td>
+            <td>30</td>
+            <td>Batsman</td>
+            <td>116</td>
+          </tr>
+          <tr>
+            <td> A Thakur</td>
+            <th >33</th>
+            <td>789</td>
+            <td>28</td>
+            <td>Batsman/ Bowler</td>
+            <td>87</td>
+          </tr>
+          <tr>
+            <td> Manoj Tiwari</td>
+            <th >11</th>
+            <td>289</td>
+            <td>27</td>
+            <td>Batsman</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td> CHristian</td>
+            <th >23</th>
+            <td>678</td>
+            <td>25</td>
+            <td>Batsman</td>
+            <td>47</td>
+          </tr>
+          <tr>
+            <td>Imran Tahir</td>
+            <th >34</th>
+            <td>1005</td>
+            <td>36</td>
+            <td>Batsman/ Bowler</td>
+            <td>78*</td>
+          </tr>
+          <tr>
+            <td> Rabada</td>
+            <th >26</th>
+            <td>201</td>
+            <td>29</td>
+            <td>Bowler</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td> A. Behra</td>
+            <th >13</th>
+            <td>143</td>
+            <td>24</td>
+            <td>Bowler</td>
+            <td>33*</td>
+          </tr>
+          <tr>
+            <td>James Faulkner</td>
+            <th >11</th>
+            <td>89</td>
+            <td>24</td>
+            <td>Bowler</td>
+            <td>34</td>
+          </tr>
+        </table>
       </div>
     );
   }
