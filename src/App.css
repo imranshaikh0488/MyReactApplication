@@ -18,23 +18,58 @@
 .App-Live{
   text-align: left;
   padding: 10px;
-  width: 750px;
+  width: 500px;
+  margin: 20px;
+}
 
+.rowc{
+display:flex; flex-direction:row-reverse;
+}
+.rowTeamData{
+display:flex; flex-direction:row;
 }
 .mybuton{
-  margin-left: 100px;
+  margin-left: 200px;
   padding: 14px;
 }
-.TestPositionCheck{
-  text-align: right;
+table{
+  border: 1px solid black;
+    background-color: #f1f1c1;
 
-
+}
+th, td {
+    border: 1px solid black;
+    width: 300px;
+    
+}
+.TeamDataStyle {
+    margin: 20px;
+    background-color: #DDDDFF;
+    
+}
+.captain {
+    background-color: #11FF99;
+}
+.header {
+    background-color: #8888FF;
+}
+.wonstyle {
+    background-color: #00FF44;
 }
 .App-intro {
   font-size: medium;
 
 }
-
+.DataAlignmet {
+margin-left: 50px;;
+}
+.DataAlignmet1 {
+margin-left: 900px;;
+}
+.Matechstye{
+  background-color: #CCCCCC;
+   margin: 20px;
+}
 @keyframes App-logo-spin {
   from { transform: rotateY(0deg); }
   to { transform: rotateY(360deg); }

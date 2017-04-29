@@ -31,9 +31,9 @@ var runs=1+this.state.score;
   render() {
 
     const jumbotronInstance = (
-      <Jumbotron width="4" className="App-Live">
+      <Jumbotron width="2" className="App-Live">
 
-        <h3 >Live Match</h3>
+        <h3 >Live Match-- 24th April 2017</h3>
 
     <p>
           <img src="kkr.png" height="50" width="80" />
