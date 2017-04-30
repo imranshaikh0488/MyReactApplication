@@ -49,7 +49,9 @@ th, td {
 }
 .TeamDataStyle {
     margin: 20px;
-    
+}
+.TeamDataStyle ul {
+  background-color: lightblue;
 }
 .captain {
     background-color: #11FF99;
@@ -73,6 +75,11 @@ margin-left: 900px;;
 .Matechstye{
    margin: 20px;
 }
+
+.Matechstye ul {
+  margin-bottom: 5px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotateY(0deg); }
   to { transform: rotateY(360deg); }
